@@ -1,0 +1,17 @@
+{
+  "name": "obedjs-logger",
+  "version": "1.0.0",
+  "description": "A simple logging utility for ObedJS framework",
+  "main": "dist/logger.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/logger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["logging", "logger", "ObedJS"],
+  "author": "ObedJS",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
