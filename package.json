@@ -8,10 +8,20 @@
     "start": "node dist/logger.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["logging", "logger", "ObedJS", "express", "Node.js", "Nestjs"],
+  "keywords": [
+    "logging",
+    "logger",
+    "ObedJS",
+    "express",
+    "Node.js",
+    "Nestjs"
+  ],
   "author": "Gaiya M. Obed",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.7"
   }
 }
