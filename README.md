@@ -1,6 +1,6 @@
 # Introduction
 
-> <b>obedjs-logger</b> A simple logging utility for [ObedJS](http:www.goal) framework
+> <b>obedjs-logger</b> A simple logging utility for [ObedJS](https://obedjs.github.io/obedjs-docs/#/) framework
 
 # Installation
 
@@ -16,7 +16,8 @@ import it in your project
 ```code
 import Logger, { LogLevel } from 'obedjs-logger';
 ```
-Then use it 
+
+Then use it
 
 ```code
 const logger = new Logger(LogLevel.DEBUG, 'project.log');
@@ -42,4 +43,5 @@ We welcome contributions from the community! If you'd like to contribute to obed
 Please follow the Code of Conduct and ensure your contributions adhere to our Contributing Guidelines.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
