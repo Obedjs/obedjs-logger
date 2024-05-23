@@ -4,12 +4,12 @@
   "description": "A simple logging utility for ObedJS framework",
   "main": "dist/logger.js",
   "scripts": {
-    "build": "tsc",
+    "build": "rimraf dist && tsc",
     "start": "node dist/logger.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["logging", "logger", "ObedJS"],
-  "author": "ObedJS",
+  "keywords": ["logging", "logger", "ObedJS", "express", "Node.js", "Nestjs"],
+  "author": "Gaiya M. Obed",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
