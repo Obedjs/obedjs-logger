@@ -18,6 +18,14 @@
   ],
   "author": "Gaiya M. Obed",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Obedjs/obedjs-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Obedjs/obedjs-logger/issues"
+  },
+  "homepage": "https://github.com/Obedjs/obedjs-logger/issues#readme",
   "devDependencies": {
     "typescript": "^5.4.5"
   },
